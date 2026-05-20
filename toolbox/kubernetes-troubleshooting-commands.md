@@ -1,6 +1,5 @@
 # Kubernetes Troubleshooting Commands for DevOps and Support
 
-This page is a practical Kubernetes troubleshooting reference for DevOps, Cloud Support, SRE, Infrastructure, and Technical Support work.
 
 The goal is to document common `kubectl` commands, troubleshooting workflows, productivity shortcuts, and investigation patterns used to diagnose real Kubernetes issues.
 
