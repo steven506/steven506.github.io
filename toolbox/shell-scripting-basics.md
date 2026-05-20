@@ -1,7 +1,5 @@
 # Shell Scripting for DevOps
 
-This page is a practical Bash scripting reference for DevOps, Cloud Support, SRE, Infrastructure, and Technical Support work.
-
 The goal is to document useful Bash scripting patterns that can be reused for troubleshooting, automation, health checks, log analysis, deployment validation, and daily Linux operations.
 
 ---
@@ -25,8 +23,6 @@ The goal is to document useful Bash scripting patterns that can be reused for tr
 - [15. Logging Pattern](#logging-pattern)
 - [16. Basic DevOps Script Examples](#basic-devops-script-examples)
 - [17. Bash Scripting Best Practices](#bash-scripting-best-practices)
-- [18. Quick Interview Summary](#quick-interview-summary)
-
 ---
 
 <a id="basic-shell-script-structure"></a>
@@ -1036,11 +1032,3 @@ fi
 - Keep scripts simple and readable.
 
 ---
-
-<a id="quick-interview-summary"></a>
-
-## 18. Quick Interview Summary
-
-Bash scripting is useful in DevOps because it allows engineers to automate Linux tasks, run health checks, collect logs, validate deployments, troubleshoot services, manage Kubernetes resources, process text files, and integrate commands into CI/CD pipelines.
-
-A good DevOps Bash script should be safe, readable, reusable, and include input validation, logging, error handling, and clear exit codes.
