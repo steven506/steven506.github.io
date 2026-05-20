@@ -1,7 +1,5 @@
 # Linux Troubleshooting Commands for DevOps and Support
 
-This page is a practical Linux troubleshooting reference for DevOps, Cloud Support, SRE, Infrastructure, and Technical Support work.
-
 The goal is to document common Linux commands, troubleshooting workflows, and investigation patterns used to diagnose real server issues.
 
 ---
