@@ -5,8 +5,8 @@ This section is my technical command reference for support, troubleshooting, Dev
 ## Sections
 
 - [Shell Scripting Basics](shell-scripting-basics.md)
-- [Linux Commands](linux-commands.md)
-- [Kubernetes Commands](kubernetes-commands.md)
+- [Linux Commands](linux-troubleshooting-commands.md)
+- [Kubernetes Commands](kubernetes-troubleshooting-commands.md)
 - [Networking Commands](networking-commands.md)
 
 ## Purpose
