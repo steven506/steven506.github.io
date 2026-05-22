@@ -1,4 +1,3 @@
-
 # Labs Portfolio
 
 This section documents hands-on technical labs focused on DevOps, infrastructure operations, Linux, Docker, Kubernetes, monitoring, automation, and self-hosted environments.
