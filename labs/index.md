@@ -23,7 +23,7 @@ Focus areas:
 - GitHub Actions CI validation
 - Deployment troubleshooting
 
-Lab page:
+Related page:
 
 - [Kubernetes Local Lab on Mac](kubernetes-local-lab-on-mac.md)
 
@@ -48,7 +48,7 @@ This lab demonstrates technical support and implementation skills for SaaS envir
 
 ---
 
-### 3. Self-Hosted Infrastructure Lab
+### 3. Self-Hosted SaaS Infrastructure Lab
 
 Status: Planned
 
