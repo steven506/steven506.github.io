@@ -2,13 +2,9 @@
 
 Welcome to my technical portfolio.
 
-This site documents hands-on labs, troubleshooting workflows, support runbooks, and command references focused on cloud infrastructure, DevOps, Kubernetes, Linux, networking, observability, cybersecurity, and self-hosted infrastructure operations.
 
 ---
 
-## Senior DevOps / Self-Hosted Infrastructure Focus
-
-This portfolio is designed to demonstrate practical ownership of infrastructure environments, with a focus on reliability, automation, security, monitoring, deployment workflows, and production troubleshooting.
 
 Key areas:
 
