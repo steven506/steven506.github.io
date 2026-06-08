@@ -46,6 +46,9 @@ The goal is to show not only tool knowledge, but operational thinking: how to ow
 
 ### Infrastructure and Operations
 
+
+- [Coolify Self-Hosted DevOps Lab](labs/coolify-self-hosted-devops-lab.md)  
+  Installed and validated Coolify on an Ubuntu ARM64 VM running on VMware Fusion. Deployed applications using Docker Image and Docker Compose workflows, configured Traefik host-based routing, used SSH port forwarding from macOS, and deployed a PostgreSQL + Adminer stack with persistent storage.
 - Self-hosted infrastructure lab with Docker Compose, PostgreSQL, Redis, monitoring, backups, and deployment workflows
 - Linux troubleshooting command reference for CPU, memory, disk, services, logs, networking, DNS, SSH, and permissions
 - Production troubleshooting runbooks focused on incident response, rollback decisions, deployment failures, and service recovery
