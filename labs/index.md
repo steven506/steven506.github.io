@@ -1,14 +1,63 @@
 # Labs Portfolio
 
-This section documents hands-on technical labs focused on DevOps, infrastructure operations, Linux, Docker, Kubernetes, monitoring, automation, and self-hosted environments.
-
-These labs are designed to demonstrate practical experience with real-world infrastructure problems, deployment workflows, troubleshooting scenarios, and operational improvements.
-
+This section documents hands-on technical labs 
 ---
 
 ## Featured Labs
 
-### 1. End-to-End DevOps Lab: Node.js App on Docker, Kubernetes, Jenkins, GitHub Actions, and Terraform
+### 1. [Coolify Self-Hosted DevOps Lab](coolify-self-hosted-devops-lab.md)
+
+Status: Completed
+
+
+Focus areas:
+
+- Coolify installation on Ubuntu Server
+- SSH access from macOS to the Ubuntu VM
+- Static IP configuration for stable VM access
+- SSH port forwarding for local access to internal services
+- Docker image deployment using `traefik/whoami`
+- Docker Compose deployment through Coolify
+- Traefik reverse proxy routing
+- Host-based routing with local domains
+- Docker networking with the external `coolify` network
+- PostgreSQL and Adminer deployment
+- Environment variables for database initialization
+- Docker volumes and persistent storage
+- Database validation with `psql`
+- Troubleshooting Docker permissions, Traefik 404 routing, NAT access, and SSH tunnels
+
+Related page:
+
+- [View Coolify Self-Hosted DevOps Lab](coolify-self-hosted-devops-lab.md)
+
+---
+
+### 2. [Kubernetes Local Lab on Mac](kubernetes-local-lab-on-mac.md)
+
+Status: In progress
+
+This lab documents a local Kubernetes environment on macOS using Docker, kind, and kubectl. It focuses on understanding Kubernetes fundamentals, deploying containerized applications, validating services, and troubleshooting common workload issues.
+
+Focus areas:
+
+- Local Kubernetes cluster using kind
+- Docker containerization
+- Kubernetes deployments
+- Kubernetes services
+- Health checks and application validation
+- Pod logs and events
+- Rollouts and restarts
+- Basic troubleshooting with `kubectl`
+- Local development workflow for Kubernetes applications
+
+Related page:
+
+- [View Kubernetes Local Lab on Mac](kubernetes-local-lab-on-mac.md)
+
+---
+
+### 3. End-to-End DevOps Lab: Node.js App on Docker, Kubernetes, Jenkins, GitHub Actions, and Terraform
 
 Status: In progress
 
@@ -29,7 +78,7 @@ Related page:
 
 ---
 
-### 2. SaaS Technical Implementation Lab: Django, PostgreSQL, REST APIs, CSV Imports, and Webhooks
+### 4. SaaS Technical Implementation Lab: Django, PostgreSQL, REST APIs, CSV Imports, and Webhooks
 
 Status: In progress
 
@@ -48,7 +97,7 @@ This lab demonstrates technical support and implementation skills for SaaS envir
 
 ---
 
-### 3. Self-Hosted SaaS Infrastructure Lab
+### 5. Self-Hosted SaaS Infrastructure Lab
 
 Status: Planned
 
@@ -71,27 +120,7 @@ This lab is designed to simulate a startup-style self-hosted production environm
 
 ---
 
-### 4. Coolify / Self-Hosted PaaS Lab
-
-Status: Planned
-
-Focus areas:
-
-- Coolify installation
-- Application deployment
-- Dockerized services
-- PostgreSQL service
-- Redis service
-- Reverse proxy
-- SSL certificates
-- Deployment automation
-- Operational troubleshooting
-
-This lab is relevant for self-hosted PaaS platforms such as Coolify, Dokku, and CapRover.
-
----
-
-### 5. Monitoring and Alerting Lab
+### 6. Monitoring and Alerting Lab
 
 Status: Planned
 
@@ -108,7 +137,7 @@ Focus areas:
 
 ---
 
-### 6. Backup and Disaster Recovery Lab
+### 7. Backup and Disaster Recovery Lab
 
 Status: Planned
 
@@ -123,6 +152,4 @@ Focus areas:
 
 ---
 
-## Portfolio Goal
-
-The goal of these labs is to demonstrate practical ownership of infrastructure environments, including deployment automation, Linux administration, troubleshooting, monitoring, security hardening, backup strategy, and operational reliability.
+These labs are designed to show not only tool knowledge, but also operational thinking: how to deploy systems, validate services, troubleshoot failures, improve reliability, and support production-style environments.
